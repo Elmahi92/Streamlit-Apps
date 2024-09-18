@@ -1,4 +1,4 @@
-# Streamlit-Apps# Streamlit App
+# Streamlit-Apps
 
 Welcome to the Streamlit Apps repository! This repository features a dynamic web applications built with Streamlit, designed to showcase interactive data visualizations and analyses. Whether you're exploring data, generating insights, or building prototypes, this repo provides a user-friendly interface to present and manipulate data in real-time. Dive into the code to see how the app is structured, customize it for your needs, or contribute to its development.
 
