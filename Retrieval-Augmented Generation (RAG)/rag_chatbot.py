@@ -34,7 +34,7 @@ sub_title_text = (
 st.write(sub_title_text)
 #help_functions.display_typing_effect(sub_title_text)
 
-token = "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"
+token = ""
 llm_model = "tiiuae/falcon-7b-instruct"
 instruct_embeddings = "hkunlp/instructor-xl"
 existing_vector_store = "Sudan"
