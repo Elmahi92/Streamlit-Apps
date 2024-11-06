@@ -3,11 +3,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import date
 import time
-from utils import fetch_acled_data
-from annotated_text import annotated_text
+from ACLED.elements.utils import fetch_acled_data
+from streamlit.components.v1 import annotated_text
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from streamlit_gallery import apps, components
+from streamlit_gallery.utils.page import page_group
+
 
 # Cache the data to avoid reloading it with each interaction
 @st.cache_data
