@@ -9,8 +9,8 @@ class KPI_Card(Dashboard.Item):
         default_content="No data available",
         title="KPI Title",
         subheader="Period: Q1 2024",
-        avatar_text="KPI",
-        avatar_color="blue",
+       # avatar_text="KPI",
+       # avatar_color="blue",
         image_url=None,
         alt_text="KPI image",
         show_favorite=True,
@@ -45,7 +45,7 @@ class KPI_Card(Dashboard.Item):
             mui.CardHeader(
                 title=title,
                 subheader=subheader,
-                avatar=mui.Avatar(avatar_text, sx={"bgcolor": avatar_color}),
+               # avatar=mui.Avatar(avatar_text, sx={"bgcolor": avatar_color}),
                 action=mui.IconButton(mui.icon.MoreVert),
                 className=self._draggable_class,
             )
